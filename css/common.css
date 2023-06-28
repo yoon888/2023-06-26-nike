@@ -104,3 +104,66 @@ body {
 .bars,.close {
     display: none;
 }
+
+.footer {
+    padding: 100px 80px 56px;
+    background-color: #111;
+    color: #fff;
+}
+
+.footer_menu {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.footer_menu .footer_gnb {
+    flex: 1;
+    display: flex;
+}
+
+.footer_gnb > li {
+    width: 218px;
+}
+
+.footer_gnb > li > a {
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    padding: 10px 0;
+}
+
+.footer_gnb ul {}
+
+.footer_gnb ul li a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.footer_menu .sns {
+    /* background-color: #333; */
+    width: 200px;
+}
+
+.sns p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.sns .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sns .icons img {
+    display: block;
+    width: 38px;
+}
+
+.copyright {
+    font-size: 10px;
+    color: #999;
+}
