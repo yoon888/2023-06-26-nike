@@ -1,0 +1,10 @@
+.temp {
+    max-width: 1320px;
+    padding: 150px 20px 130px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    margin-bottom: 100px;
+}
